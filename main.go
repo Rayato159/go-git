@@ -6,6 +6,10 @@ import "fmt"
 // 2 commit
 // 3 push
 
+func sub(a, b int) int {
+	return a - b
+}
+
 func sum(a, b int) int {
 	return a + b
 }
@@ -13,4 +17,5 @@ func sum(a, b int) int {
 func main() {
 	fmt.Println("Hello Github")
 	fmt.Println(sum(1, 2))
+	fmt.Println(sub(1, 2))
 }
